@@ -1,0 +1,59 @@
+.CompanyLife {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .CompanyLife {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.company-feature-container {
+  width: 100%;
+  max-width: 520px;
+}
+@media screen and (max-width: 767px) {
+  .company-feature-container {
+    width: 100%;
+    max-width: 700px;
+  }
+  .company-life-image-mobile {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .company-life-image {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+.company-life-heading {
+  color: #ffff;
+  font-family: Roboto;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.company-life-description {
+  color: #ffff;
+  font-family: Roboto;
+  font-size: 16px;
+}
+.company-life-image {
+  width: 100%;
+  max-width: 300px;
+  max-height: 170px;
+  margin-top: 20px;
+}
+.company-life-image-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .company-life-image-mobile {
+    display: none;
+  }
+  .company-life-image-desktop {
+    display: block;
+  }
+}

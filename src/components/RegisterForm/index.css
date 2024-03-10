@@ -1,0 +1,54 @@
+/* * {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.register-container {
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register-form-container {
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.username-label {
+  font-size: 15px;
+  color: #ffff;
+  font-weight: bold;
+}
+.male-radio {
+  font-size: 15px;
+  color: #ffff;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.username-input {
+  padding: 10px 7px 10px 7px;
+  border-width: 0px;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+.name-radio {
+  margin-right: 7px;
+}
+.input-container {
+  margin-bottom: 5px;
+}
+.register-btn {
+  padding: 10px 7px 10px 7px;
+  border-width: 0px;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #4f46e5;
+  color: #ffffff;
+} */

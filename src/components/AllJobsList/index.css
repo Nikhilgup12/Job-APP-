@@ -1,0 +1,181 @@
+.jobs-main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-main-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+}
+
+.all-jobs-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .all-jobs-list-container {
+    width: 70%;
+  }
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-color: #7e858e;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 7px;
+  width: 100%;
+  max-width: 300px;
+  background-color: #272727;
+}
+@media screen and (max-width: 767px) {
+  .search-container {
+    display: none;
+  }
+}
+.search-input {
+  width: 100%;
+  padding: 8px 5px 8px 5px;
+  border-width: 0px;
+  background-color: #000000;
+  color: #ffffff;
+  outline: none;
+}
+.search-icon-container {
+  margin-left: 5px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-width: 0px;
+}
+.search-icon {
+  color: #ffffff;
+  font-size: 15px;
+}
+.job-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 20px;
+}
+.no-job-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 40px;
+}
+.no-job-image {
+  width: 100%;
+  max-width: 300px;
+}
+.no-job-para {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Roboto;
+  margin-top: 10px;
+}
+.no-job-disc {
+  color: #475569;
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: Roboto;
+}
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-error-view-container {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 70%;
+    padding-bottom: 0;
+  }
+}
+
+.products-failure-img {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-img {
+    width: 450px;
+    height: 350px;
+  }
+}
+
+.product-failure-heading-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-failure-heading-text {
+    font-size: 30px;
+  }
+}
+
+.products-failure-description {
+  text-align: center;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-description {
+    font-size: 13px;
+    width: 60%;
+    max-width: 466px;
+    margin-top: 20px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    width: 70%;
+  }
+}
+.failure-btn {
+  background-color: #4f46e5;
+  color: #ffff;
+  padding: 10px 18px 10px 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-width: 0px;
+}
